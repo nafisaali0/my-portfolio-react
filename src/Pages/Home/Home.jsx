@@ -1,5 +1,6 @@
 import About from "../../Shared/About/About";
 import Contact from "../../Shared/Contact/Contact";
+import Footer from "../../Shared/Footer/Footer";
 import MapProjects from "../../Shared/MapProjects/MapProjects";
 import NavBar from "../../Shared/NavBar/NavBar";
 import Banner from './../../Shared/Banner/Banner';
@@ -12,6 +13,7 @@ const Home = () => {
             <MapProjects></MapProjects>
             <About></About>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
