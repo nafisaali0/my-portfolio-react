@@ -8,10 +8,10 @@ import faccebook from '../../assets/facebook1.svg'
 const Banner = () => {
     return (
         <>
-            <div className="bg-[#f9f9f9] py-32 px-2">
+            <div className="bg-[#f9f9f9] py-32 px-3">
                 <div className='container mx-auto overflow-hidden mt-5'>
-                    <div className='flex gap-5 items-center flex-col-reverse md:flex-row'>
-                        <div>
+                    <div className='flex gap-5 md:justify-between  items-center flex-col-reverse md:flex-row'>
+                        <div className='md:flex-1'>
                             <div className='w-full lg:w-4/6 md:text-left text-center'>
                                 <h1 className='text-4xl md:text-5xl font-bold text-[#174984]'>Front-End Developer</h1>
                                 <p className='my-5 text-2xl'>
@@ -24,9 +24,9 @@ const Banner = () => {
                                 <a href=""><img className='w-[30px] h-[30px]' src={faccebook} alt="" /></a>
                             </div>
                         </div>
-                        <div className=''>
+                        <div className='md:flex-1 flex justify-end'>
                             <img
-                                className='lg:w-[350px] lg:h-[350px] md:w-[300px] md:h-[300px] rounded-full ' src={image} alt="" />
+                                className='lg:w-[350px] lg:h-[350px] md:w-[200px] md:h-[200px] rounded-full ' src={image} alt="" />
                         </div>
                     </div>
                 </div>

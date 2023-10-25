@@ -6,14 +6,14 @@ const ShowProject = ({ project }) => {
     const { project_name, description, github_link, live_link, language_one, language_two, image } = project
     return (
         <>
-            <div className='flex gap-10 items-start flex-col md:flex-row bg-white px-5 py-10 rounded-3xl'>
+            <div className='flex gap-10 items-start flex-col lg:flex-row bg-white px-5 py-10 rounded-3xl'>
                 <div>
                     <img className='w-full h-full' src={image} alt="" />
                 </div>
                 {/* className='bg-gray-300' */}
                 <div>
                     <div className='flex items-center justify-center text-center'>
-                        <div className='w-2/4'>
+                        <div className='w-full lg:w-2/4'>
                             <h2 className='text-3xl text-[#174984] font-bold'>{project_name}</h2>
                             <p className='my-3 text-xl'>{description}</p>
                             <div className='flex gap-5 items-center justify-center my-3'>
