@@ -1,4 +1,4 @@
-import bg from '../../assets/wavedown.svg'
+import bg from '../../assets/background/wavedown.svg'
 const Contact = () => {
     return (
             <div className='bg-[#f2f2f2]' style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>

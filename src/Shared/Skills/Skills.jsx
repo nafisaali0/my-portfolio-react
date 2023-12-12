@@ -1,9 +1,9 @@
-import html from '../../assets/html-5.svg'
-import css from '../../assets/css3.svg'
-import js from '../../assets/javascript.svg'
-import reacts from '../../assets/react1.svg'
-import expres from '../../assets/express.png'
-import mongo from '../../assets/mongodb.svg'
+import html from '../../assets/tech-icons/html-5.svg'
+import css from '../../assets/tech-icons/css3.svg'
+import js from '../../assets/tech-icons/javascript.svg'
+import reacts from '../../assets/tech-icons/react1.svg'
+import expres from '../../assets/tech-icons/express.png'
+import mongo from '../../assets/tech-icons/mongodb.svg'
 
 
 const Skills = () => {

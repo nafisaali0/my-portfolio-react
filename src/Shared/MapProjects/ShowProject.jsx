@@ -1,5 +1,5 @@
-import git from '../../assets/github1.svg'
-import link from '../../assets/link.svg'
+import git from '../../assets/icons/github1.svg'
+import link from '../../assets/icons/link.svg'
 import PropTypes from 'prop-types';
 
 const ShowProject = ({ project }) => {

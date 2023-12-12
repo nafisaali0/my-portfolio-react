@@ -1,8 +1,10 @@
-import image from '../../assets/mypic.jpg'
+import image from '../../assets/profile_pic/mypic.jpg'
 import Skills from './../Skills/Skills';
-import github from '../../assets/github1.svg'
-import linkedin from '../../assets/linkedin1.svg'
-import faccebook from '../../assets/facebook1.svg'
+import github from '../../assets/icons/github1.svg'
+import linkedin from '../../assets/icons/linkedin1.svg'
+import faccebook from '../../assets/icons/facebook1.svg'
+import file from '../../assets/icons/resume1.svg'
+import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
@@ -19,9 +21,10 @@ const Banner = () => {
                                 </p>
                             </div>
                             <div className='flex gap-1 items-center flex-wrap justify-center md:justify-start'>
-                                <a href=""><img className='w-[30px] h-[30px]' src={github} alt="" /></a>
-                                <a href=""><img className='w-[30px] h-[30px]' src={linkedin} alt="" /></a>
-                                <a href=""><img className='w-[30px] h-[30px]' src={faccebook} alt="" /></a>
+                                <Link href=""><img className='w-[30px] h-[30px]' src={github} alt="" /></Link>
+                                <Link href=""><img className='w-[30px] h-[30px]' src={linkedin} alt="" /></Link>
+                                <Link href=""><img className='w-[30px] h-[30px]' src={faccebook} alt="" /></Link>
+                                <a href="cv.pdf" download={"resume.pdf"}><img className='w-[30px] h-[30px]' src={file} alt="" /></a>
                             </div>
                         </div>
                         <div className='md:flex-1 flex justify-end'>

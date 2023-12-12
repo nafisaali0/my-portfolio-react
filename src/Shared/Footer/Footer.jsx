@@ -1,6 +1,7 @@
-import github from '../../assets/github1.svg'
-import linkedin from '../../assets/linkedin1.svg'
-import faccebook from '../../assets/facebook1.svg'
+import github from '../../assets/icons/github1.svg'
+import linkedin from '../../assets/icons/linkedin1.svg'
+import faccebook from '../../assets/icons/facebook1.svg'
+import file from '../../assets/icons/resume1.svg'
 
 const Footer = () => {
     return (
@@ -16,6 +17,7 @@ const Footer = () => {
                             <a href=""><img className='w-[30px] h-[30px]' src={github} alt="" /></a>
                             <a href=""><img className='w-[30px] h-[30px]' src={linkedin} alt="" /></a>
                             <a href=""><img className='w-[30px] h-[30px]' src={faccebook} alt="" /></a>
+                            <a href="cv.pdf" download={"resume.pdf"}><img className='w-[30px] h-[30px]' src={file} alt="" /></a>
                         </div>
                     </nav>
                 </div>
