@@ -1,4 +1,4 @@
-import image from '../../assets/profile_pic/mypic.jpg'
+import image from '../../assets/profile_pic/mypic-removebg.png'
 import Skills from './../Skills/Skills';
 import github from '../../assets/icons/github1.svg'
 import linkedin from '../../assets/icons/linkedin1.svg'
