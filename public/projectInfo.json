@@ -13,7 +13,7 @@
         "project_name": "Amelia Medical Camp",
         "description":"In this project you explore three role based Dashboard. Roles are for Participent , Admin and Professionals. If you donn't have role you can updata your profile to select your role specially when you google login. Make sure you have role one of them for better experience.",
         "github_link": "https://github.com/nafisaali0/medical-camp-client-side?tab=readme-ov-file",
-        "live_link": "https://amelia-medical-camp.netlify.app/",
+        "live_link": "https://medical-camp.netlify.app/",
         "language_one": "React js   Express Js   Mongo DB  Tailwind  CSS",
         "image": "https://i.ibb.co/ft2BS0G/amelia-Medical-Camp-select.png"
     },
@@ -23,8 +23,7 @@
         "description":"WeavePDF: a PDF editing website designed to streamline your document workflow! Whether it's annotating, signing, merging or splitting, WeavePDF has you covered.",
         "github_link": "https://github.com/Md-Rakib-Hassan/WeavePDF",
         "live_link": "https://donation-campaign-by-react.netlify.app/",
-        "language_one": "React js Express Js  Mongo DB",
-        "language_two": "Tailwind CSS",
+        "language_one": "React js Express Js  Mongo DB Tailwind CSS",
         "image": "https://i.ibb.co/zJVGHMK/Weave-PDF-netlify-app.png"
     }    
 ]

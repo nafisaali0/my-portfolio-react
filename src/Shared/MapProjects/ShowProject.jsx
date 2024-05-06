@@ -7,11 +7,11 @@ const ShowProject = ({ project }) => {
     return (
         <>
             <div className='flex gap-10 items-start flex-col lg:flex-row bg-white px-5 py-10 rounded-3xl'>
-                <div>
-                    <img className='w-full h-full' src={image} alt="" />
+                <div className='flex-1'>
+                    <img className='w-full h-[400px]' src={image} alt="" />
                 </div>
                 {/* className='bg-gray-300' */}
-                <div>
+                <div className='flex-1'>
                     <div className='flex items-center justify-center text-center'>
                         <div className='w-full lg:w-2/4'>
                             <h2 className='text-3xl text-[#174984] font-bold'>{project_name}</h2>
