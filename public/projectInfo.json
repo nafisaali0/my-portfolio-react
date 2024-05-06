@@ -22,7 +22,7 @@
         "project_name": "WeavePDF",
         "description":"WeavePDF: a PDF editing website designed to streamline your document workflow! Whether it's annotating, signing, merging or splitting, WeavePDF has you covered.",
         "github_link": "https://github.com/Md-Rakib-Hassan/WeavePDF",
-        "live_link": "https://donation-campaign-by-react.netlify.app/",
+        "live_link": "https://curious-dragon-bfb4a4.netlify.app/",
         "language_one": "React js Express Js  Mongo DB Tailwind CSS",
         "image": "https://i.ibb.co/zJVGHMK/Weave-PDF-netlify-app.png"
     }    
