@@ -11,7 +11,7 @@ const About = () => {
                         <p className="my-4">
                             As a frontend developer, my expertise lies in creating seamless and intuitive user experiences. I specialize in using cutting-edge technologies to produce high-quality web applications. Specifically, I have vast knowledge of ReactJS and NodeJS, which allow me to build complex and dynamic applications with ease.
                         </p>
-                        <a href="cv.pdf" download={"resume.pdf"}><button className="px-3 py-3 rounded-md text-white bg-[#174984]">Download Resume</button></a>
+                        <a href="resume.pdf" download={"resume.pdf"}><button className="px-3 py-3 rounded-md text-white bg-[#174984]">Download Resume</button></a>
                     </div>
                     <div>
                         <Lottie loop="true" animationData={animation} />

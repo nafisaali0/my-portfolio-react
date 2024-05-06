@@ -24,7 +24,7 @@ const Banner = () => {
                                 <Link href=""><img className='w-[30px] h-[30px]' src={github} alt="" /></Link>
                                 <Link href=""><img className='w-[30px] h-[30px]' src={linkedin} alt="" /></Link>
                                 <Link href=""><img className='w-[30px] h-[30px]' src={faccebook} alt="" /></Link>
-                                <a href="cv.pdf" download={"resume.pdf"}><img className='w-[30px] h-[30px]' src={file} alt="" /></a>
+                                <a href="resume.pdf" download={"resume.pdf"}><img className='w-[30px] h-[30px]' src={file} alt="" /></a>
                             </div>
                         </div>
                         <div className='md:flex-1 flex justify-end'>
